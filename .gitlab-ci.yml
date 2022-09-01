@@ -1,7 +1,4 @@
-job:
-  script:
-  - echo "Ola mundo! primeira pipeline"
-  - echo "Apenas um teste"
 build:
+stage: build
   script:
-  - echo "Mais um teste"
+  - mvn package -Dmaven.test.skip
