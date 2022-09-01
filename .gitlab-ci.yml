@@ -2,3 +2,6 @@ job:
   script:
   - echo "Ola mundo! primeira pipeline"
   - echo "Apenas um teste"
+build:
+  script:
+  - echo "Mais um teste"
