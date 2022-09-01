@@ -1,0 +1,9 @@
+name: CI_pipe
+
+on: [push]
+
+jobs:
+  build:
+    steps:
+    - name: Rodando um script shell
+      run: echo "pipeline gitactions"
