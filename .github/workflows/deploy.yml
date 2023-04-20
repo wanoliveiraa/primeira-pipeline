@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: maven:3.8.6-openjdk-18
+    runs-on: 'docker://maven:3.8.6-openjdk-18'
     steps:
     - name: Gerando build
       run: mvn package -Dmaven.test.skip
